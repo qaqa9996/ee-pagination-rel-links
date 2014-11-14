@@ -14,8 +14,8 @@ Simply place the following tags within the HTML head area to output the full lin
 
 An example output would be:
 
-<link rel="prev" href="http://www.example.com/articles/p10" />
-<link rel="next" href="http://www.example.com/articles/p30" />
+`<link rel="prev" href="http://www.example.com/articles/p10" />`
+`<link rel="next" href="http://www.example.com/articles/p30" />`
 
 
 You may also use the following tags to only output the URL and URI:
