@@ -2,9 +2,8 @@ Pagination Rel Links
 =======================
 
 This extension enables you to add next and prev rel links to paginated pages.
-This created HTML link elements with rel="next" and rel="prev" to indicate the relationship between component URLs in a paginated series.
+This creates HTML link elements with rel="next" and rel="prev" to indicate the relationship between component URLs in a paginated series.
 See: http://googlewebmastercentral.blogspot.co.uk/2011/09/pagination-with-relnext-and-relprev.html
-
 
 Simply place the following tags within the HTML head area to output the full link tag:
 --------------------------------------------------------------------------------------
@@ -14,9 +13,8 @@ Simply place the following tags within the HTML head area to output the full lin
 
 An example output would be:
 
-`<link rel="prev" href="http://www.example.com/articles/p10" />`
-`<link rel="next" href="http://www.example.com/articles/p30" />`
-
+`<link rel="prev" href="http://www.example.com/articles/P10" />`
+`<link rel="next" href="http://www.example.com/articles/P30" />`
 
 You may also use the following tags to only output the URL and URI:
 -------------------------------------------------------------------
