@@ -1,6 +1,8 @@
 Pagination Rel Links
 =======================
 
+For ExpressionEngine 2
+
 This extension enables you to add next and prev rel links to paginated pages.
 This creates HTML link elements with rel="next" and rel="prev" to indicate the relationship between component URLs in a paginated series.
 See: http://googlewebmastercentral.blogspot.co.uk/2011/09/pagination-with-relnext-and-relprev.html
