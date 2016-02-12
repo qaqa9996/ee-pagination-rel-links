@@ -10,7 +10,7 @@ See: http://googlewebmastercentral.blogspot.co.uk/2011/09/pagination-with-relnex
 To activate this extension, go to Addons > Extensions and click Install.
 Once installed you can change these settings:
 
-- Enable redirect to first page where pagination is not found?
+- Enable redirect to first page where pagination is not found
 - Page number prefix: add a prefix to page numbers in titles
 - Page number suffix: add a suffix to page numbers in titles
 - Display first page number in titles? i.e. Omit Page #1 in {pagination_rel_links:page_num} tag
@@ -48,7 +48,35 @@ Outputs pagination URL: http://www.example.com/articles/P30
 Displays the page number for use in browser titles and elsewhere:
 {pagination_rel_links:page_num}
 
-This extension uses the following hooks:
+
+These tags also work in NSM Better Meta fields
+
+
+Extension Settings
+------------------
+
+- Page number prefix: adds a prefix to page numbers in titles
+  Example result: " - Page " could have a title as "My News Listing[ - Page #]"
+
+- Page number suffix: add a suffix to page numbers in titles
+  Example result: " of listed pages" could have a title as "My News Listing - [# of listed pages]"
+
+- Display first page number in page_num tag?
+  Enable this to show the Page Number on the first paginated page (default=No)
+
+- Enable redirect to first page where pagination is not found?
+  This will help avoid out-of-range pagination problems which automatically redirects to the first page.
+  i.e. where the url has P100 but pagination only goes up to P50
+
+- Store pagination strings to allow for cached pages (experimental)
+  The problem exists where pagination rules cannot be accessed after they have been cached (with e.g. CE Cache)
+  This attempts to circumvent this problem while still being able to display the pagination_rel_links tags
+
+
+**This extension uses the following hooks:**
 
 pagination_create
 template_post_parse
+
+
+Installation: copy files to system > expressionengine > third_party

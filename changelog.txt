@@ -1,0 +1,22 @@
+Changelog for Pagination Rel Links
+==================================
+
+## 1.4
+
+- **Added**: Allowed for caching e.g. pagination stored with CE Cache
+
+## 1.3
+
+- **Added**: Various fixes and added some Better Pagination support
+
+## 1.2
+
+- **Added**: New page_num tag and various updates
+
+## 1.1
+
+- **Added**: Added redirect to first page where pagination is out-of-range 
+
+## 1.0
+
+- Release version
